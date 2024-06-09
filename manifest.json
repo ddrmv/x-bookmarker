@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "x.com/Twitter Video Bookmarker",
   "version": "1.0",
   "icons": {
