@@ -2,7 +2,7 @@
 Create a bookmark of a Twitter video post at the current play time with one click.
 
 ## Installation
-In Firefox go to `Add-ons and themes`, search for the extension in the search field `Find more add-ons` or directly go to the extension [page](#temporary-placeholder-link). Then press `Add to Firefox`.
+In Firefox go to `Add-ons and themes`, search for the extension in the search field `Find more add-ons` or directly go to the extension [page](https://addons.mozilla.org/en-US/firefox/addon/x-com-twitter-video-bookmarker/). Then press `Add to Firefox`.
 
 To add the extension to the Toolbar, click on the `Extensions` icon on the toolbar, click on the cogwheel icon for the extension and select `Pin to Toolbar`.
 
