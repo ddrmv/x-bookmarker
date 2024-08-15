@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "name": "x.com/Twitter Video Bookmarker",
-  "version": "1.0",
+  "version": "2.0",
   "icons": {
     "96": "icon-dark-96.png"
   },
-  "description": "Create a bookmark of a Twitter video post at the current play time with one click.",
-  "permissions": ["activeTab", "bookmarks", "https://twitter.com/*"],
+  "description": "Create a bookmark of an x.com video post at the current play time with one click.",
+  "permissions": ["activeTab", "bookmarks", "https://twitter.com/*", "https://x.com/*"],
   "background": {
     "scripts": ["background.js"]
   },

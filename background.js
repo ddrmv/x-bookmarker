@@ -5,9 +5,9 @@ browser.browserAction.onClicked.addListener((tab) => {
     (() => {
             console.log('This runs at ' + new Date().toISOString());
             const postUrl = window.location.href.split('?')[0];
-            if (!postUrl.startsWith("https://twitter.com/") || !postUrl.includes("/status/")) {
+            if ((!postUrl.startsWith("https://twitter.com/") && !postUrl.startsWith("https://x.com/")) || !postUrl.includes("/status/")) {
               console.log("Throwing error: Invalid current url.")
-              throw new Error("Invalid current url. Valid form: https://twitter.com/<user>/status/<post>");
+              throw new Error("Invalid current url. Valid form: https://x.com/<user>/status/<post>");
             }
             const video = document.querySelector('video');
             if (video === null) {
